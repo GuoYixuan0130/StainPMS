@@ -2,7 +2,7 @@
 
 **StainPMS: Self-Bootstrapped Prompt-Mask Supervision for Nuclei Instance Segmentation**
 
-Yixuan Guo and Meng Zhu · **VCIP 2026**
+Yixuan Guo and Zhu Meng · **VCIP 2026**
 
 StainPMS uses accumulated online coverage and residual hematoxylin evidence to supervise the shared mask decoder during training. Inference follows the standard CA-SAM2 path, with no additional learnable parameters.
 
@@ -43,7 +43,7 @@ For TNBC, use `data/tnbc` and `--overlap 32`.
 ```bibtex
 @inproceedings{guo2026stainpms,
   title={StainPMS: Self-Bootstrapped Prompt-Mask Supervision for Nuclei Instance Segmentation},
-  author={Guo, Yixuan and Zhu, Meng},
+  author={Guo, Yixuan and Meng, Zhu},
   booktitle={IEEE Visual Communications and Image Processing (VCIP)},
   year={2026}
 }
